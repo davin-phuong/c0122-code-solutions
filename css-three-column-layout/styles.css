@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #1996da;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  color: #ddd;
+  font-size: smaller;
+  text-align: center;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  padding: 15px;
+}
+
+.image {
+  width: 50%;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+}
