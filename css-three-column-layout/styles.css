@@ -32,9 +32,16 @@ p {
 }
 
 .image {
-  width: 50%;
+  width: 50px;
+  padding-top: 1.5em;
+}
+
+.circle {
   background-color: white;
-  border: none;
-  padding: 20px;
   border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
