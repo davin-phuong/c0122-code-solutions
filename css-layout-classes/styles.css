@@ -31,3 +31,7 @@
 .image {
   width: 100%;
 }
+
+body {
+  font-family: sans-serif;
+}
