@@ -28,7 +28,6 @@ p {
 
 .column-third {
   width: calc(100% / 3);
-  padding: 15px;
 }
 
 .image {
