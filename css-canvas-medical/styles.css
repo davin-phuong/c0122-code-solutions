@@ -1,0 +1,64 @@
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+.grey {
+  background: #525351;
+}
+
+.white-logo {
+  width: 45%;
+  padding: 25% 8.5% 5%;
+}
+
+address {
+  color: white;
+  font-style: normal;
+  font-size: 8px;
+  padding: 10% 8.5% 25%;
+}
+
+.about-company {
+  display: inline-block;
+  flex-wrap: nowrap;
+}
+
+.company {
+  list-style: none;
+  display: inline-block;
+}
+
+body {
+  font-family: Avenir, sans-serif;
+  color: #6e6e6e;
+  margin: 0;
+}
+
+footer {
+  width: 15%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 12px;
+  font-weight: bold;
+}
