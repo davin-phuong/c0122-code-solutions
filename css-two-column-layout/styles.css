@@ -30,7 +30,10 @@ h3 {
   line-height: 1.5;
   text-align: left;
   padding-top: 25px;
-  padding-right: 20%;
+
+  /* padding-right: 20%; */
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 p.align-center {
@@ -47,7 +50,8 @@ p {
   line-height: 1.8;
   text-align: left;
   font-size: 14.5px;
-  padding-right: 20%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .row {
