@@ -30,21 +30,24 @@ h3 {
   line-height: 1.5;
   text-align: left;
   padding-top: 25px;
+  padding-right: 20%;
 }
 
 p.align-center {
   text-align: center;
-  font-size: 14px;
-  width: 65%;
+  font-size: 14.5px;
+  width: 90%;
   margin: 0 auto;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 p {
   color: #616161;
   line-height: 1.8;
   text-align: left;
-  font-size: 14px;
-  margin-right: 27%;
+  font-size: 14.5px;
+  padding-right: 20%;
 }
 
 .row {
@@ -55,7 +58,7 @@ p {
   width: 100%;
 }
 
-.column {
+.column-half {
   width: 50%;
 }
 
