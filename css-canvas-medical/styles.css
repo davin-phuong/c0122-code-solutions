@@ -21,7 +21,32 @@
 
 .white-logo {
   width: 45%;
-  padding: 25% 8.5% 5%;
+  padding: 20% 8.5% 2%;
+}
+
+.middle-padding {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.padding {
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.about-company,
+.products {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: white;
+  padding-top: 2%;
 }
 
 address {
@@ -29,16 +54,6 @@ address {
   font-style: normal;
   font-size: 8px;
   padding: 10% 8.5% 25%;
-}
-
-.about-company {
-  display: inline-block;
-  flex-wrap: nowrap;
-}
-
-.company {
-  list-style: none;
-  display: inline-block;
 }
 
 body {
