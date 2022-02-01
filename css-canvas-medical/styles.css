@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.column-half {
+  width: 50%;
+}
+
 .column-third {
   width: calc(100% / 3);
 }
@@ -47,6 +51,14 @@
 .white-text {
   color: white;
   padding-top: 2%;
+}
+
+.submit {
+  padding: 15px 20px;
+  background: #294464;
+  color: white;
+  border: none;
+  font-family: Avenir, sans-serif;
 }
 
 address {
