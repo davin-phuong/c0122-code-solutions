@@ -39,6 +39,17 @@
   padding-top: 5%;
 }
 
+.padding-left {
+  padding-left: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.button-padding {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
 .about-company,
 .products {
   color: white;
@@ -53,12 +64,99 @@
   padding-top: 2%;
 }
 
+.button {
+  text-align: right;
+  padding: 2% 5%;
+}
+
 .submit {
-  padding: 15px 20px;
+  padding: 10px 30px;
   background: #294464;
   color: white;
   border: none;
   font-family: Avenir, sans-serif;
+  font-size: 14px;
+}
+
+.font-style {
+  font-family: "Tiempos Headline", serif;
+  font-weight: lighter;
+}
+
+.clinicians,
+.locations {
+  background: #fafafa;
+}
+
+.text-center {
+  text-align: center;
+  font-family: "Tiempos Headline", serif;
+  font-weight: lighter;
+}
+
+.center {
+  text-align: center;
+  font-size: 14px;
+}
+
+.left-locations {
+  text-align: center;
+  padding-left: 15%;
+}
+
+.right-locations {
+  text-align: center;
+  padding-right: 15%;
+}
+
+.hero-image {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 900px;
+  height: 500px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  width: 900px;
+  height: 500px;
+}
+
+.header {
+  font-family: "Tiempos Headline", serif;
+  color: white;
+  font-weight: lighter;
+}
+
+.primary-care {
+  color: white;
+  font-size: smaller;
+}
+
+.blue-logo {
+  width: 20%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10%;
+  font-size: smaller;
+  color: #a0a0a0;
+}
+
+.column-fifth {
+  width: calc(100% / 5);
 }
 
 address {
