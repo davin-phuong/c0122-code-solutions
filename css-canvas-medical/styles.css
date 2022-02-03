@@ -140,7 +140,7 @@
 }
 
 .blue-logo {
-  width: 20%;
+  width: 15%;
   padding-top: 10%;
   padding-bottom: 5%;
   padding-left: 5%;
@@ -149,10 +149,18 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   padding-top: 10%;
+  padding-left: 10%;
   font-size: smaller;
   color: #a0a0a0;
+  width: 35%;
+}
+
+.width {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  margin-left: 15%;
 }
 
 .column-fifth {
