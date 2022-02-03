@@ -110,12 +110,11 @@
 }
 
 .hero-image {
-  padding-left: 15%;
-  padding-right: 15%;
-  width: 900px;
-  height: 500px;
-  background-image: url("images/hero.jpg");
-  background-size: cover;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  margin: 5% 10%;
+  width: 1350px;
+  height: 650px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -124,8 +123,9 @@
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
-  width: 900px;
-  height: 500px;
+  width: 1150px;
+  height: 650px;
+  margin: 5% 10%;
 }
 
 .header {
