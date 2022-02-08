@@ -23,7 +23,8 @@ body {
 }
 
 h1 {
-  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
 }
 
 div {
@@ -44,27 +45,32 @@ img {
 }
 
 .size {
+  font-family: "DM Sans", sans-serif;
   color: #d4d4d4;
-  font-weight: normal;
+  font-weight: 900;
 }
 
 p {
+  font-family: "DM Sans", sans-serif;
   font-size: 6px;
+  font-weight: 900;
   padding-left: 13px;
 }
 
 .bold {
-  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
 }
 
 .background {
   background-color: #fff2e6;
-  font-weight: bold;
   border: 2px solid #fff2e6;
   border-radius: 2px;
 }
 
 .retail-price {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
   color: #d4d4d4;
   text-decoration-line: line-through;
 }
