@@ -1,5 +1,7 @@
 /* exported setValue */
 
 function setValue(object, key, value) {
-  return undefined;
+  object[key] = value;
 }
+
+/* assign value to object property */
