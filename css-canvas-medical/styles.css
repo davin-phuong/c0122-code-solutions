@@ -105,8 +105,9 @@
 }
 
 .start-button {
-  position: absolute;
-  right: 8%;
+  position: relative;
+  bottom: 20%;
+  left: 30%;
 }
 
 .font-style {
@@ -217,7 +218,7 @@
 }
 
 .increase-font {
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   color: #6e6e6e;
 }
@@ -254,6 +255,8 @@ body {
 footer {
   width: 25%;
   padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 ul {
