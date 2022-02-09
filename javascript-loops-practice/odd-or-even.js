@@ -5,11 +5,9 @@ function oddOrEven(numbers) {
 
   for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 === 0) {
-      numbers[i] = 'even';
-      oddOrEvenNumbers.push(numbers[i]);
+      oddOrEvenNumbers.push('even');
     } else {
-      numbers[i] = 'odd';
-      oddOrEvenNumbers.push(numbers[i]);
+      oddOrEvenNumbers.push('odd');
     }
   }
   return oddOrEvenNumbers;
