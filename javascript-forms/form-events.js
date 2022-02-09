@@ -9,13 +9,12 @@ function handleBlur(event) {
 }
 
 function handleInput(event) {
-  console.log('event.target.name:', event.target.name);
-  console.log('value:', event.target.value);
+  console.log('value: ', event.target.name, event.target.value);
 }
 
-var $inputName = document.querySelector('input');
-var $inputEmail = document.querySelector('input');
-var $textSection = document.querySelector('textarea');
+var $inputName = document.querySelector('#user-name');
+var $inputEmail = document.querySelector('#user-email');
+var $textSection = document.querySelector('#user-message');
 
 $inputName.addEventListener('focus', handleFocus);
 $inputName.addEventListener('blur', handleBlur);

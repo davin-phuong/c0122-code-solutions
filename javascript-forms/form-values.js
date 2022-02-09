@@ -1,18 +1,18 @@
+var $contactForm = document.querySelector('#contact-form');
 
 function submit(event) {
-  event.prevent();
+  event.preventDefault();
+  var name = $contactForm.elements.name.value;
+  var email = $contactForm.elements.email.value;
+  var message = $contactForm.elements.message.value;
+
+  var formData = {
+    name: name,
+    email: email,
+    message: message
+  };
+  console.log('formData: ', formData);
+  $contactForm.reset();
 }
 
-var $contactForm = document.querySelector('form');
-
 $contactForm.addEventListener('submit', submit);
-
-var formData = {};
-
-formData.name = $contactForm.elements.name.value;
-formData.email = $contactForm.elements.email.value;
-formData.message = $contactForm.elements.message.value;
-
-console.log(formData);
-
-document.querySelector('form').reset();
