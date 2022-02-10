@@ -104,11 +104,11 @@
   border-radius: 5px;
 }
 
-/* .start-button {
+.start-button {
   position: relative;
   bottom: 20%;
   left: 30%;
-} */
+}
 
 .font-style {
   font-family: "Tiempos Headline", serif;
@@ -145,18 +145,16 @@
 
 .top-header {
   position: absolute;
-  width: 35%;
-  padding-top: 5.5%;
+  top: 5%;
   font-family: "Tiempos Headline", serif;
   color: white;
   font-weight: lighter;
   font-size: 40px;
   text-align: left;
   line-height: 1.5;
-  margin: 5% 15%;
 }
 
-.description {
+.hero-text {
   position: absolute;
   width: 38%;
   padding-top: 15%;
@@ -164,27 +162,28 @@
   font-size: 17px;
   line-height: 2;
   color: white;
-  margin: 5% 15%;
+  margin: 5% 8%;
   display: inline-block;
 }
 
 .overlay {
   background: linear-gradient(transparent, rgb(75 75 75 / 75%));
-  position: relative;
+  position: absolute;
   width: 1210px;
   height: 650px;
-  justify-content: center;
-  align-items: center;
-  margin: 5% 8%;
+  margin-left: 0.1%;
 }
 
 .hero-image {
-  margin: 5% 8%;
-  width: 1350px;
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1210px;
   height: 650px;
-  justify-content: center;
-  align-items: center;
   position: relative;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .header {
