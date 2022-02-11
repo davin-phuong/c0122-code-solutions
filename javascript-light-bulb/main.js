@@ -1,5 +1,6 @@
 var lightOn = true;
 var $lightBulb = document.querySelector('.light');
+var $background = document.querySelector('.background');
 
 function lightOnOrOff(event) {
   if (lightOn === true) {
@@ -7,6 +8,8 @@ function lightOnOrOff(event) {
     lightOn = !lightOn;
   } else {
     $lightBulb.className = 'light-off';
+    $background.className = 'background-dark';
+    lightOn = !lightOn;
   }
 }
 
