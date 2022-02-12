@@ -6,10 +6,11 @@ function lightOnOrOff(event) {
   if (lightOn === true) {
     $lightBulb.className = 'light-on';
     lightOn = !lightOn;
+    $background.className = 'background-light';
   } else {
     $lightBulb.className = 'light-off';
-    $background.className = 'background-dark';
     lightOn = !lightOn;
+    $background.className = 'background-dark';
   }
 }
 

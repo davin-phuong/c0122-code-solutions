@@ -5,11 +5,12 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 20% 15%;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.background {
-  background-color: lightyellow;
+.background-light {
+  background-color: white;
 }
 
 .background-dark {
