@@ -21,11 +21,12 @@ console.log('typeof bookshelf:', typeof bookshelf);
 var bookshelfJsonString = JSON.stringify(bookshelf);
 console.log('JSON string of bookshelf:', bookshelfJsonString);
 
-var studentJsonString = '{"number id": 004, "string name": "Mocha"}';
+var studentJsonString = '{"number id": 4, "string name": "Mocha"}';
 
 console.log('studentJsonString:', studentJsonString);
 console.log('typeof studentJsonString:', typeof studentJsonString);
 
-var parsedObject = JSON.parse(JSON.stringify(studentJsonString));
+var parsedObject = JSON.parse(studentJsonString);
+
 console.log('parsedObject:', parsedObject);
 console.log('typeof parsedObject:', typeof parsedObject);
