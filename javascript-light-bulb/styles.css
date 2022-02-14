@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.background-light {
+  background-color: white;
+}
+
+.background-dark {
+  background-color: #111;
+}
+
+.light {
+  background: #faea84;
+  border-radius: 50%;
+  border: none;
+  width: 250px;
+  height: 250px;
+}
+
+.light-on {
+  background: #faea84;
+  border-radius: 50%;
+  border: none;
+  width: 250px;
+  height: 250px;
+}
+
+.light-off {
+  background: #252525;
+  border-radius: 50%;
+  border: none;
+  width: 250px;
+  height: 250px;
+}
