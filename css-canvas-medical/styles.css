@@ -98,6 +98,15 @@
   border-radius: 5px;
 }
 
+.get-started-button {
+  padding: 15px 45px;
+  background: #294464;
+  color: white;
+  border: none;
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+}
+
 .start-button {
   position: relative;
   bottom: 20%;
