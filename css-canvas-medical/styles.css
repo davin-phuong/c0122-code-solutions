@@ -87,12 +87,6 @@
   padding: 2% 5%;
 }
 
-/* /* .get-started-button {
-  position: absolute;
-  bottom: 10%;
-  left: 15%;
-} */
-
 .submit {
   padding: 15px 45px;
   background: #294464;
@@ -144,26 +138,18 @@
 }
 
 .top-header {
-  position: absolute;
-  top: 5%;
   font-family: "Tiempos Headline", serif;
   color: white;
   font-weight: lighter;
   font-size: 40px;
-  text-align: left;
   line-height: 1.5;
 }
 
 .hero-text {
-  position: absolute;
-  width: 38%;
-  padding-top: 15%;
-  text-align: left;
+  width: 50%;
   font-size: 17px;
   line-height: 2;
   color: white;
-  margin: 5% 8%;
-  display: inline-block;
 }
 
 .overlay {
@@ -172,6 +158,9 @@
   width: 1210px;
   height: 650px;
   margin-left: 0.1%;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
 }
 
 .hero-image {
@@ -181,7 +170,7 @@
   width: 1210px;
   height: 650px;
   position: relative;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
