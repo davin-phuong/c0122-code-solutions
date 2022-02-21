@@ -23,8 +23,18 @@ var calculator = {
 
   sumAll: function (numbers) {
     var sum = 0;
-    var i = 0;
-    return (sum += numbers[i]);
+    for (var i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+    return sum;
+  },
+
+  getAverage: function (numbers) {
+    var sum = 0;
+    for (var i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+    return sum / numbers.length;
   }
 
 };
